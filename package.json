@@ -1,0 +1,24 @@
+{
+  "name": "hilo-temperature-server",
+  "version": "1.0.0",
+  "description": "Requests high and low temperatures of a city by zip code, calling the Open Weather Map API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kromvastudio/hilo-temperature-server.git"
+  },
+  "author": "Markov Alvarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kromvastudio/hilo-temperature-server/issues"
+  },
+  "homepage": "https://github.com/kromvastudio/hilo-temperature-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}
